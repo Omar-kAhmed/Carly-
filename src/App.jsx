@@ -26,7 +26,7 @@ function App() {
 
   const [users, setUsers]= useState([])
   useEffect(() =>{
-    axios.get("http://localhost:8080/getUsers")
+    axios.get(`${import.meta.env.VITE_API_URL}/getUsers`)
     .then(users=> setUsers(users.data))
     .catch(err => console.log(err))
 

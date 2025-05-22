@@ -45,7 +45,7 @@ const EstimateUsedCarPrice = () => {
 
     try {
       // Send request to backend
-      const response = await axios.post('http://localhost:8080/api/used-car-price/estimate-used-car-price', data, {
+      const response = await axios.post(`${import.meta.env.VITE_API_URL}/api/used-car-price/estimate-used-car-price`, data, {
         headers: {
           Authorization: `Bearer ${localStorage.getItem('token')}`, // Assuming JWT token is stored in localStorage
         }

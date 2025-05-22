@@ -8,7 +8,7 @@ const DIYPage = () => {
 
   // Fetch DIY videos from backend
   useEffect(() => {
-    fetch("http://localhost:8080/api/diy-videos")
+    fetch(`${import.meta.env.VITE_API_URL}/api/diy-videos`)
       .then((response) => {
         if (!response.ok) {
           throw new Error(`Network response was not ok: ${response.statusText}`);

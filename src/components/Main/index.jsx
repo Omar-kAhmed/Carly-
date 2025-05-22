@@ -26,15 +26,17 @@ const Main = () => {
     totalCost: 0,
   });
   const [currentView, setCurrentView] = useState("main");
-  const [showEstimation, setShowEstimation] = useState(false);  // State to toggle the estimation visibility
+  const [showEstimation, setShowEstimation] = useState(false);
 
   useEffect(() => {
+    let updateMilesInterval;
+
     const fetchUserData = async () => {
       try {
         const token = localStorage.getItem("token");
         if (!token) throw new Error("No token found");
 
-        const response = await axios.get("http://localhost:8080/api/users/me", {
+        const response = await axios.get(`${import.meta.env.VITE_API_URL}/api/users/me`, {
           headers: { Authorization: `Bearer ${token}` },
         });
 
@@ -57,7 +59,7 @@ const Main = () => {
             updateMilesForPastDays(fetchedData.milesDriven, daysSinceLastUpdate);
           }
 
-          startMilesUpdateInterval(fetchedData, daysSinceLastUpdate);
+          updateMilesInterval = startMilesUpdateInterval(fetchedData, daysSinceLastUpdate);
         }
       } catch (error) {
         console.error("Error fetching user data:", error);
@@ -72,13 +74,11 @@ const Main = () => {
     return () => clearInterval(updateMilesInterval);
   }, []);
 
-  let updateMilesInterval;
-
   const calculateDaysSinceLastUpdate = (lastUpdateDate) => {
     const currentDate = new Date();
     const lastUpdate = new Date(lastUpdateDate);
     const timeDifference = currentDate - lastUpdate;
-    return Math.floor(timeDifference / (1000 * 3600 * 24)); // in days
+    return Math.floor(timeDifference / (1000 * 3600 * 24));
   };
 
   const updateMilesForPastDays = (currentMiles, daysSinceLastUpdate) => {
@@ -102,7 +102,7 @@ const Main = () => {
     const carAgeInYears = Math.max(new Date().getFullYear() - (fetchedData.carYear || 0), 1);
     const averageMilesPerDay = fetchedData.milesDriven / (365 * carAgeInYears) || 0;
 
-    updateMilesInterval = setInterval(() => {
+    return setInterval(() => {
       setUserData((prevData) => {
         const currentMiles = parseFloat(prevData.milesDriven) || 0;
         const updatedMiles = currentMiles + averageMilesPerDay;
@@ -122,7 +122,7 @@ const Main = () => {
           milesDriven: updatedMiles.toFixed(2),
         };
       });
-    }, 3600000); // Update every hour (adjust to your preferred interval)
+    }, 3600000);
   };
 
   const calculateMaintenance = (milesDriven) => {
@@ -146,7 +146,7 @@ const Main = () => {
       if (!token) throw new Error("No token found");
 
       await axios.put(
-        "http://localhost:8080/api/users/update-miles",
+        `${import.meta.env.VITE_API_URL}/api/users/update-miles`,
         { milesDriven: updatedMiles },
         { headers: { Authorization: `Bearer ${token}` } }
       );
@@ -161,8 +161,8 @@ const Main = () => {
   };
 
   const handlePricingClick = () => {
-    setShowEstimation(true);  // Set the state to show estimation
-    setCurrentView("estimation");  // Set the current view to 'estimation'
+    setShowEstimation(true);
+    setCurrentView("estimation");
   };
 
   if (isLoading) {
@@ -223,16 +223,13 @@ const Main = () => {
               Pricing
             </button>
             <button 
-  className={styles.white_btn3} 
-  onClick={() => window.location.href = "https://carlytalk.onrender.com"}
->
-  Consultation
-</button>
-
+              className={styles.white_btn3} 
+              onClick={() => window.location.href = "https://carlytalk.onrender.com"}
+            >
+              Consultation
+            </button>
           </div>
           <Footer1 />
-
-
         </div>
       )}
 
@@ -248,18 +245,18 @@ const Main = () => {
             Main
           </button>
           <button 
-  className={styles.white_btn3} 
-  onClick={() => window.location.href = "https://carlytalk.onrender.com"}
->
-  Consultation
-</button>
+            className={styles.white_btn3} 
+            onClick={() => window.location.href = "https://carlytalk.onrender.com"}
+          >
+            Consultation
+          </button>
 
           <button className={styles.white_btn4} onClick={() => setCurrentView("diy")}>
-          DIY & Maintainance Guide
+            DIY & Maintainance Guide
           </button>
           <button onClick={handlePricingClick} className={styles.pricing_button}>
-              Pricing
-            </button>
+            Pricing
+          </button>
         </div>
       )}
 
@@ -274,23 +271,17 @@ const Main = () => {
             Main
           </button>
           <button 
-  className={styles.white_btn3} 
-  onClick={() => window.location.href = "https://carlytalk.onrender.com"}
->
-  Consultation
-</button>
+            className={styles.white_btn3} 
+            onClick={() => window.location.href = "https://carlytalk.onrender.com"}
+          >
+            Consultation
+          </button>
 
           <button className={styles.white_btn4} onClick={() => setCurrentView("diy")}>
-          DIY & Maintainance Guide
+            DIY & Maintainance Guide
           </button>
-          <button onClick={handlePricingClick} className={styles.pricing_button}>
-              Pricing
-            </button>
         </div>
       )}
-
-   
-
     </div>
   );
 };

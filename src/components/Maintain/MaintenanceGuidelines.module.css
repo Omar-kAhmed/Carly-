@@ -1,0 +1,19 @@
+.guidelineContainer{
+    position: absolute;
+    top: 200%;
+    width: 100%;
+}
+
+.line{
+    position: absolute;
+    top: 202%;
+    left: 38.6%;
+
+}
+
+.guidelineTitle{
+margin-top: -30px;
+    margin-left: 580px;
+    margin-bottom: 100px;
+}
+

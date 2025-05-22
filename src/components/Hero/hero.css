@@ -1,0 +1,602 @@
+
+.car1{
+    z-index: 1000;
+    width: 31.25rem;
+    height: auto;
+    position: absolute;
+    right: 15%;
+    top: 35%;
+  }
+
+  .Start{
+    position: absolute;
+    font-size: 1.25rem;
+    top: 51%;
+    right: 74.6%;
+    width: 12.375rem;
+    height: 2.188rem;
+    background-color: rgb(181, 24, 24);
+    color: white;
+    border-radius: 1.25rem;
+    font-weight: 500;
+    padding-right: 10px;
+  }
+
+  .Start:hover{
+    background-color: black ;
+    cursor: pointer;
+    transition: ease-in-out 0.2s;
+    transform: scale(1.04);
+    color: rgb(255, 255, 255);
+  }
+  
+  .car1:hover{
+    cursor: pointer;
+    transform: translateX(-4.063rem);
+    transition: 0.5s ease-in-out;
+  }
+  
+  .black{
+    width: 25rem;
+    height: auto;
+    position: absolute;
+    top: 30%;
+    right: 10%;
+  }
+
+  .our_mission{
+    height: 100vh;
+  }
+  
+  .title{
+    font-size: 2.5rem;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 14.063rem;
+    margin-left: 10.625rem;
+    color: white;
+  }
+  
+  .head1{
+    position: absolute;
+    font-size: 1.875rem;
+    top: 46%;
+    right: 66.7%;
+  }
+  
+  .ly{
+    color: rgb(255, 255, 255);
+    
+  }
+
+  .title1{
+    font-size: 2.5rem;
+    font-family: 'Roboto';
+    position: absolute;
+    top: 41%;
+    left: 12%;
+
+  }
+  .ly1{
+    color: rgb(200, 38, 38);
+  }
+  
+  
+  .air{
+    width: 12.5rem;
+    position: absolute;
+    right: 1%;
+    top: 40%;
+  }
+  
+  .air:hover{
+    cursor: pointer;
+  }
+  
+  
+  .home{
+  
+    height: 52.5rem;
+    background-color: rgb(255, 255, 255);
+  
+  }
+  
+  .about{
+   
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+  
+  }
+  
+
+  
+  
+  .our{
+  
+    text-align: center;
+    font-size: 2.188rem;
+height: 100vh;  
+  }
+  
+  .mission{
+    color: rgb(206, 40, 40);
+  
+  }
+  .easy{
+    color: rgb(206, 40, 40);
+  
+  }
+  
+  .our_mission{
+    margin-top: 28.125rem;
+  }
+  
+  p{
+  
+    position: absolute;
+    top: 130%;
+    right: 42%;
+    font-size: 1.563rem;
+    line-height: 2.188rem;
+    left: 5%;
+  }
+
+  hr{
+    position: absolute;
+    top: 104.5%;
+    right: 40%;
+    width: 20%;
+    color: rgb(255, 0, 0);
+    height: 0.313rem;
+  }
+  
+  .driver{
+  
+    width: 28.125rem;
+    height: auto;
+    position: absolute;
+    top: 128%;
+    right: 8%;
+  }
+  
+ 
+  .ours{
+    text-align: center;
+    font-size: 2.188rem;
+height: 150vh;  
+  }
+  
+
+  .services1{
+    color: red;
+  }
+
+  .service1{
+   
+    color: rgb(206, 40, 40);
+    position: absolute;
+    top: 220%;
+    left: 5%;
+  }
+
+
+  .service2{
+   
+    color: rgb(206, 40, 40);
+    position: absolute;
+    top: 220%;
+    left: 25%;
+  }
+
+  .service3{
+   
+    color: rgb(206, 40, 40);
+    position: absolute;
+    top: 220%;
+    left: 45%;
+  }
+
+  .service4{
+   
+    color: rgb(206, 40, 40);
+    position: absolute;
+    top: 220%;
+    left: 65%;
+  }
+
+  .service5{
+   
+    color: rgb(0, 0, 0);
+    position: absolute;
+    top: 220%;
+    left: 85%;
+  }
+
+
+
+  .service1{
+    position: absolute;
+    top: 220%;
+    left: 20%;
+  }
+
+
+  .service1p{
+    position: absolute;
+    top: 115%;
+    left: -45%;
+    font-size: 1.25rem;
+    width: 25rem;
+    color: #000;
+  }
+
+  .service1h{
+    position: absolute;
+    top: 103%;
+    left: 15%;
+    font-size: 1.25rem;
+    width: 25rem;
+    color: #fd0202;
+  }
+
+
+  .service2{
+    position: absolute;
+    top: 220%;
+    left: 63%;
+  }
+
+  .service2p{
+    position: absolute;
+    top: 115%;
+    left: -25%;
+    font-size: 1.25rem;
+    width: 25rem;
+    color: #000;
+  }
+
+
+  .service2h{
+    position: absolute;
+    top: 103%;
+    left: 10%;
+    font-size: 1.25rem;
+    width: 25rem;
+    color: #fd0202;
+  }
+
+  .service3{
+    position: absolute;
+    top: 280%;
+    left: 20%;
+
+  }
+
+  .service3p{
+    position: absolute;
+    top: 115%;
+    left: -45%;
+    font-size: 1.25rem;
+    width: 25rem;
+    color: #000;
+  }
+
+  .service3h{
+    position: absolute;
+    top: 103%;
+    left: 15%;
+    font-size: 1.25rem;
+    width: 25rem;
+    color: #fd0202;
+  }
+
+
+ 
+  .service4h{
+    position: absolute;
+    top: 103%;
+    left: 15%;
+    font-size: 1.25rem;
+    width: 25rem;
+    color: #fd0202;
+  }
+
+  .service4p{
+    position: absolute;
+    top: 118%;
+    left: -25%;
+    font-size: 1.25rem;
+    width: 25rem;
+    color: #000;
+  }
+
+
+  
+
+  .service4{
+    position: absolute;
+    top: 280%;
+    left: 63%;
+
+  }
+
+ 
+ 
+
+  .f{
+    color: #000;
+  }
+
+  .serhr{
+    position: absolute;
+    top: 205.5%;
+    right: 35%;
+    width: 30%;
+    color: rgb(255, 0, 0);
+    height: 0.313rem;
+  }
+
+  .howit{
+    color: #fd0202;
+    text-align: center;
+  }
+
+  .how{
+    height: 100vh;
+    font-size: 1.688rem;
+  }
+
+
+  .howhr{
+    position: absolute;
+    top: 355.5%;
+    right: 36.3%;
+    width: 28%;
+    color: rgb(255, 0, 0);
+    height: 0.313rem;
+  }
+
+  .number1{
+    position: absolute;
+    right: 93%;
+
+    background-color: #fd02029e;
+    width: 1.875rem;
+    height: 1.875rem;
+    border-radius: 1.875rem;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    top: 370%;
+    color: #ffffff;
+
+  }
+
+
+  .number2{
+    position: absolute;
+    right: 42%;
+    top: 370%;
+
+    background-color: #fd020295;
+    width: 1.875rem;
+    height: 1.875rem;
+    border-radius: 1.875rem;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    color: white;
+  }
+
+  .number:hover{
+    background-color: #000;
+    color: white;
+    cursor: pointer;
+    transform: rotateZ('20deg');
+    transition: ease-in-out 0.2s;
+
+  }
+
+
+  .splitter{
+    position: absolute;
+    top: 370%;
+    right: 50%;
+    width: 4px;
+    height: 28.75rem;
+    background-color: #fd020266;
+  }
+
+
+  .step1{
+    position: absolute;
+    top: 378%;
+    right: 50%;
+    font-size: 1.875rem;
+    width: 37.5rem;
+    color: #000;
+  }
+
+
+  .step2{
+    position: absolute;
+    top: 378%;
+    right: 0%;
+    font-size: 30px;
+    width: 37.5rem;
+    color: #000;
+  }
+
+
+  .step1p{
+    color: #000;
+    position: absolute;
+    top: 390%;
+    width: 34.375rem;
+  }
+
+    .step2p{
+        color: #000000;
+        position: absolute;
+        top: 390%;
+        left: 55%;
+        width: 36.875rem;
+    }
+
+
+    /* From Uiverse.io by Cornerstone-04 */ 
+.box {
+    width: 8.75rem;
+    height: auto;
+    float: left;
+    transition: .5s linear;
+    position: absolute;
+    display: block;
+    overflow: hidden;
+    padding: 15px;
+    text-align: center;
+    margin: 0 5px;
+    background: transparent;
+    text-transform: uppercase;
+    font-weight: 900;
+    top: 426%;
+    left: 43.5%;
+    border-top: #000 4px solid;
+    border-right: #000 4px solid;
+    border-left: #fd0202 4px solid;
+    border-bottom: #fd0202 4px solid;
+  
+
+
+  }
+  
+  .box:before {
+    position: absolute;
+    content: '';
+    left: 0;
+    bottom: 0;
+    height: 4px;
+    width: 100%;
+    border-bottom: 4px solid transparent;
+    border-left: 4px solid transparent;
+    box-sizing: border-box;
+  }
+  
+  .box:after {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    border-top: 4px solid transparent;
+    border-right: 4px solid transparent;
+    box-sizing: border-box;
+    transform: translateX(-100%);
+  }
+  
+  .box:hover {
+    box-shadow: 0 5px 15px rgba(255, 0, 0, 0.5);
+    
+  }
+  
+  .box:hover:before {
+    border-color: #ff0000;
+    height: 100%;
+    transform: translateX(0);
+    transition: .3s transform linear, .3s height linear .3s;
+  }
+  
+  .box:hover:after {
+    border-color: #262626;
+    height: 100%;
+    transform: translateX(0);
+    transition: .3s transform linear, .3s height linear .5s;
+  }
+  
+
+  .faq{
+    height: 130vh;
+  }
+
+  .faqh{
+    color: #fd0202;
+    font-size: 35px;
+    text-align: center;
+  }
+
+  .faqspan{
+    color: #000;
+  
+  }
+
+  .faqhr{
+    position: absolute;
+    top: 455%;
+    right: 28%;
+    width: 45%;
+    color: rgb(255, 0, 0);
+    height: 5px;
+  }
+
+
+
+
+details{
+  background-color: #ea1717;
+  color: #fff;
+  font-size: 1.5rem;
+  width: 70%;
+  border: none;
+  border-radius: 10px;
+  align-items: center;
+  text-align: center;
+margin-top: 40px;
+margin-left: 200px;
+}
+
+summary {
+  padding: .5em 1.3rem;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;  
+  transition: height 1s ease;
+  background-color: #000000;
+  border-radius: 10px;
+}
+
+summary:hover{
+    cursor: pointer;
+    background-color: #610606a2;
+    transition: ease-in-out 0.2s;
+}
+
+summary::-webkit-details-marker {
+  display: none;
+}
+
+summary:after{
+  content: "\002B";
+}
+
+details[open] summary {
+    border-bottom: 1px solid #aaa;
+    margin-bottom: .5em;
+}
+
+details[open] summary:after{
+  content: "\00D7";
+}
+
+details[open] div{
+  padding: .5em 1em;
+}
+
+.container8{
+  margin-bottom: 200px;
+}
+
+img:hover{
+  cursor: pointer;
+  transform: scale(1.04);
+  transition: ease-in-out 0.2s;
+}

@@ -1,0 +1,31 @@
+/* UserAppointments.css */
+ul {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 0;
+    list-style: none;
+    font-family: Arial, sans-serif;
+    background-color: #f0f4f8;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  }
+  
+  ul li {
+    padding: 15px 20px;
+    border-bottom: 1px solid #ddd;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  ul li:last-child {
+    border-bottom: none;
+  }
+  
+  p {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    color: #666;
+    margin-top: 30px;
+    font-size: 18px;
+  }
+  

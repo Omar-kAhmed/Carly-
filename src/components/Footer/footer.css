@@ -1,0 +1,247 @@
+.footer{
+  position: relative;
+  bottom: 0;
+  left: 0;
+  
+    background-color: rgb(0, 0, 0);
+    height: 390px;
+    width: 100%;
+    color: rgb(255, 255, 255);
+
+  }
+
+  
+.story{
+    position: absolute;
+    top: 22%;
+    font-size: 18px;
+  }
+  
+  .copyright{
+    position: absolute;
+  font-size: 16px;
+  font-weight: 500;
+    top: 85%;
+  left: 40%;
+  }
+  
+  
+
+  .ftitile{
+    font-size: 35px;
+    position: absolute;
+    top: 6%;
+    left: 2%;
+    color: rgb(255, 255, 255);
+  }
+
+  
+  .contact{
+    position: absolute;
+    right: 0%;
+    top: 0%;
+    font-size: 15px;
+    width: 500px;
+    height: 320px;
+    background-color: rgb(2, 2, 2);
+    color: black;
+    border-radius: 40px;
+    padding: 20px;
+  }
+
+  .heading{
+    font-size: 30px;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+  }
+
+.Address{
+    position: absolute;
+    top: 55%;
+    left: 7%;
+    font-size: 16px;
+  }
+
+  .email{
+    position: absolute;
+    top: 65%;
+    left: 7%;
+    font-size: 16px;
+  }
+
+  .phone{
+    position: absolute;
+    top: 75%;
+    left: 7%;
+    font-size: 16px;
+  }
+
+  .icon-phone{
+    position: absolute;
+    top: 75%;
+    left: 2%;
+    font-size: 20px;
+    color: white;
+
+  }
+
+  .icon-envelope{
+    color: aliceblue;
+    position: absolute;
+    top: 67.5%;
+    left: 4.7%;
+    font-size: 20px;
+  }
+
+
+  .icon-phone{
+    position: absolute;
+    top: 76.5%;
+    left: 4.7%;
+    font-size: 20px;
+
+  }
+
+
+  .icon-location{
+    position: absolute;
+    top: 56.5%;
+    left: 4.7%;
+    font-size: 20px;
+  }
+
+  .icon{
+    margin: 7px;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+  }
+
+
+  .icon-facebook{
+    margin-left: 100px;
+position: absolute;
+top: 88%;
+font-size: 35px;
+
+}
+
+.icon-instagram-with-circle{
+    margin-left: 160px;
+    position: absolute;
+    top: 88%;
+    font-size: 35px;
+    left:0%;
+}
+
+.icon-twitter-with-circle{
+    margin-left: 200px;
+    position: absolute;
+    top: 88%;
+    font-size: 35px;
+    left: 0%;
+}
+.icon-linkedin-with-circle{
+    margin-left: 240px;
+    position: absolute;
+    top: 88%;
+    font-size: 35px;
+    left: 0%;
+}
+
+.footer-text{
+    position: absolute;
+    top: 53%;
+    left: 4%;
+    font-size: 20px;
+    color: aliceblue;
+    width: 95%;
+
+}
+
+.feel{
+    color: aliceblue;
+    position: absolute;
+    top: 7%;
+}
+
+label{
+    color: white;
+    font-size: 16px;
+}
+
+form{
+    position: absolute;
+    top: 20%;
+    left: 5%;
+   
+}
+
+input{
+    position: absolute;
+    left: 290%;
+    width: 260px;
+    height: 30px;
+    border: none;
+    padding: 5px;
+    bottom: -45%;
+    outline: rgba(255, 0, 0, 0.445) solid 1px;
+    background-color: transparent;
+    border: none;
+    color: aliceblue;
+    font-size: 14px;
+}
+
+textarea{
+    position: absolute;
+    width: 260px;
+    height: 70px;
+    border: none;
+    left: 290%;
+    top: 200%;
+    padding: 5px;
+    background-color: transparent;
+    outline: rgba(255, 0, 0, 0.403) solid 1px;
+    border: none;
+    color: aliceblue;
+    font-size: 14px;
+}
+
+
+.message{
+    position: absolute;
+    top: 300%;
+    left: 5%;
+    font-size: 20px;
+    color: aliceblue;
+}
+
+.send{
+    background-color: red;
+    color: white;
+    position: absolute;
+    top: 200%;
+    width: 70px;
+    height: 30px;
+    left: 970%;
+    font-size: 16px;
+    border: none;
+    font-weight: 600;
+    border-radius: 15px;
+}
+
+.send:hover{
+    cursor: pointer;
+    background-color: rgb(104, 26, 26);
+    transition: 0.5s ease;
+}
+
+
+.thanks{
+    position: absolute;
+    top: 30%;
+    left: 13%;
+    width: 80%;
+    font-size: 20px;
+    color: rgb(241, 18, 18);
+    font-weight: 500;
+}

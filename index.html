@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" href="logo.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="index.css">
+    <title>Carly | Home </title>
+  </head>
+  <body>
+    <button class="btn" onclick="topFunction()" id="myBtn">
+      <div class="text">
+        <span id="back">Back </span>
+        <span>to </span>
+        <span>top</span>
+      </div>
+     
+      <svg
+        stroke-width="2"
+        stroke="currentColor"
+        viewBox="0 0 24 24"
+        fill="none"
+        class="h-6 w-6"
+        xmlns="http://www.w3.org/2000/svg"
+        width="20px"
+      >
+        <path
+          d="M14 5l7 7m0 0l-7 7m7-7H3"
+          stroke-linejoin="round"
+          stroke-linecap="round"
+        ></path>
+      </svg>
+    </button>
+    
+
+    
+   
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+<div class="loader"></div>
+
+<script>window.aichatbotApiKey="3cfa3674-e395-4e4b-9c2f-2b96c373b331"; window.aichatbotProviderId="f9e9c5e4-6d1a-4b8c-8d3f-3f9e9c5e46d1";</script><script src="https://script.chatlab.com/aichatbot.js" id="3cfa3674-e395-4e4b-9c2f-2b96c373b331" defer></script>    <script>
+      let mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0; // For Safari
+  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+}
+    </script>
+</body>
+

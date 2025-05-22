@@ -1,0 +1,52 @@
+/* BookingForm.css */
+form {
+    max-width: 400px;
+    margin: 30px auto;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    font-family: Arial, sans-serif;
+    color: black;
+  }
+  
+  form input[type="text"],
+  form input[type="number"],
+  .react-datepicker-wrapper,
+  form button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    box-sizing: border-box;
+    color: black;
+  }
+  
+  form input[type="text"]:focus,
+  form input[type="number"]:focus,
+  .react-datepicker__input-container input:focus {
+    border-color: #007bff;
+    outline: none;
+    color: black;
+  }
+  
+  form button {
+    background-color: #007bff;
+    color: rgb(5, 5, 5);
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  form button:disabled {
+    background-color: #999;
+    cursor: not-allowed;
+  }
+  
+  form button:hover:not(:disabled) {
+    background-color: #0056b3;
+  }
+  

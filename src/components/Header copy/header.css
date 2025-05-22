@@ -1,0 +1,176 @@
+.logo1{
+    width: 11.0rem;
+    height: auto;
+    position: absolute;
+    right: 86%;
+    top: 0%;
+ 
+  }
+
+
+  
+
+
+  .header1{
+    top: 10%;
+    left: 0;
+    width: 100%;
+    margin-left: 2000px;
+    z-index: 1;
+  }
+  
+
+  a:hover{
+    color: red;
+    transition: ease-in-out 0.3s;
+  }
+  .navbar1 ul li{
+    display: inline-block;
+    margin-left: 2.5rem;
+    font-size: 1.438rem;
+    font-weight: 510;
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    color: rgb(206, 40, 40);
+  }
+  
+  .navbar1 ul li:hover{
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    transition: 0.5s ease;
+  }
+  
+  a{
+    color: rgb(229, 224, 224);
+  }
+
+
+
+  .active{
+    margin-left: 0rem;
+  }
+
+ 
+  .Signuph{
+    font-size: 1.125rem;
+    font-family: 'Roboto', sans-serif;
+    position: absolute;
+    width: 8.75rem;
+    height: 2.5rem;
+    top: 4%;
+    left: 85%;
+    border-radius: 1.25rem;
+    background-color: rgb(0, 0, 0);
+    font-weight: 520;
+    color: rgb(251, 251, 251);
+    padding-left: 15px;
+  }
+
+  .icon-engineering{
+    position: absolute;
+    left: -13%;
+  }
+
+  .navcontainer1{
+    background-color: rgb(1, 1, 1);
+    width: 65%;
+    z-index: 1;
+    position: absolute;
+    border-radius: 2.188rem;
+    height: 2.5rem;
+    padding-top: 0.938rem;
+    padding-left: 1.25rem;
+    top: 13%;
+    left: 16%;
+
+  }
+
+  .con{
+    color: black;
+    cursor: default;
+  }
+
+  .con:hover{
+    color: rgb(0, 0, 0);
+  }
+
+  
+  .Signuph:hover{
+    background-color:rgb(181, 24, 24) ;
+    cursor: pointer;
+    transition: ease-in-out 0.2s;
+    transform: scale(1.04);
+    color: white;
+    ;
+  }
+
+
+
+  i{
+    color: white;
+  }
+
+  i:hover{
+    color: rgb(181, 24, 24);
+    transition: 0.5s ease;
+    cursor: pointer;
+  }
+
+  .icon-home{
+    position: absolute;
+    left: -2rem;
+  }
+
+  .icon-enter{
+    position: absolute;
+    left: 1.0rem;
+    top: 0.76rem;
+  }
+
+  .icon-enter:hover{
+    color: rgb(0, 0, 0);
+  }
+
+  .icon-go{
+    position: absolute;
+    left: 9.8rem;
+    top: 0.50rem;
+  }
+
+  .diy-button{
+    background-color: black;
+    color: white;
+    font-size: 1.438rem;
+    font-weight: 710;
+  }
+
+  #icon-home1{
+    position: absolute;
+    left: 2.3rem;
+    top: 1rem;
+    font-size: 22px;
+  }
+
+ 
+
+  #icon-contact{
+    position: absolute;
+    left: 22.3rem;
+    top: 1rem;
+    font-size: 22px;
+  }
+
+  #icon-eng{
+    position: absolute;
+    left: 36.9rem;
+    top: 1rem;
+    font-size: 24px;
+    color: white;
+  }
+
+  #icon-price{
+    position: absolute;
+    left: 11.5rem;
+    top: 1rem;
+    font-size: 22px;
+  }

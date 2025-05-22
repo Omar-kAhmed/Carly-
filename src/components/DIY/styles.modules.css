@@ -1,0 +1,67 @@
+
+
+.split{
+    position: absolute;
+    top: 29%;
+    left: 38.2%;
+}
+
+
+.diy-page{
+    height: 280vh;
+}
+
+.video_title{
+    margin-bottom: 10px;
+}
+span{
+    color: red;
+}
+
+.videos-container {
+    display: flex;                /* Use flexbox to align items */
+    flex-wrap: wrap;              /* Allow items to wrap if needed */
+    gap: 20px;                    /* Space between video cards */
+    justify-content: center; 
+    position: absolute;
+    top: 25%;
+    left: 0%;
+
+}
+
+.video-card {
+    border-radius: 22px;
+    padding: 15px;
+    width: 250px;        
+    height: 220px;         /* Set a fixed width for each video card */
+    display: flex;
+    flex-direction: column;       /* Stack content vertically */
+    background-color: rgba(0, 0, 0, 0.912);
+    color: aliceblue;   /* Center content horizontally */
+}
+
+video, iframe {
+    width: 100%;                  /* Make videos and iframes take the full width of their container */
+    border-radius: 10px;
+}
+
+
+.see-all-button {
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    position: absolute;
+    top: 78%;
+    left: 47%;
+  }
+  
+  .see-all-button:hover {
+    background-color: #0056b3;
+  }
+  

@@ -1,0 +1,206 @@
+/* Styling for the estimate car price page */
+  
+  .estimate-form {
+    background-color: #86030eba;
+    color: black;
+    position: absolute;
+    width: 300px;
+    height: 400px;
+    top: 30%;
+    padding: 20px;
+    left: 12%;
+    border-radius: 20px;
+
+  }
+
+  .black1{
+    background-color: rgba(0, 0, 0, 0.782);
+    color: white;
+    width: 800px;
+    position: absolute;
+    top: 0%;
+    height: 440px;
+    left: 77%;
+    border-radius: 20px;
+
+  }
+
+  .maintitle{
+    position: absolute;
+    top: 23%;
+    left: 37%;
+    color: black;
+    font-size: 30px;
+  }
+  
+  
+  
+  
+  .form-control {
+    padding: 8px;
+    width: 400px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    position: absolute;
+    top: 10%;
+    left: 140%;
+
+    background-color: black;
+  }
+
+  .form-control1 {
+    width: 400px;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    position: absolute;
+    top: 30%;
+    left: 140%;
+    
+
+    background-color: black;
+  }
+  
+
+  .form-control2 {
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    position: absolute;
+    background-color: black;
+    top: 50%;
+    left: 140%;
+ 
+    width: 400px;
+  }
+
+
+
+  .form-control3 {
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    position: absolute;
+    background-color: black;
+    color: white;
+    width: 420px;
+
+    top: 70%;
+    left: 140%;
+   
+    height: 50px;
+    border: none;
+  }
+
+
+  .form-control4 {
+    border-radius: 4px;
+    position: absolute;
+    background-color: black;
+    color: white;
+    top: -10%;
+    left: 385%;
+   
+    width: 420px;
+    padding: 20px;
+ 
+  }
+
+  .form-control:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  button:disabled {
+    background-color: #991f1f;
+  }
+  
+  .mt-4 {
+    margin-top: 1.5rem;
+  }
+  
+  .alert-danger {
+    color: red;
+  }
+  
+  .pp {
+    font-weight: bold;
+    position: absolute;
+    top: 82%;
+    left: 35%;
+  }
+  
+  .btn-primary{
+    position: absolute;
+    left: 65%;
+    width: 600px;
+    top: 115%;
+  }
+
+
+  .lprice{
+    position: absolute;
+    top: 13%;
+    left: 23%;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+  }
+
+  .lage{
+    position: absolute;
+    top: 33%;
+    left: 23%;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+  }
+
+  .lmile{
+    position: absolute;
+    top: 53%;
+    left: 23.3%;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+
+
+  }
+
+  .lbox{
+    position: absolute;
+    top: 90%;
+    left: 25%;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+  }
+
+  .lcondition{
+    position: absolute;
+    top: 73%;
+    left: 25%;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+  }
+
+  .alert-danger{
+    background-color: #991f1f;
+    width: 400px;
+    position: absolute;
+    top: 18%;
+    left: 0%;
+    padding-left: 30px;
+    color: white;
+    height: 40px;
+    padding-top: 25px;
+    transition: ease-in-out;
+    animation: forwards;
+  }
+
+  

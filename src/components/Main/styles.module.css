@@ -1,0 +1,198 @@
+.Welcome{
+
+	position: absolute;
+	top: 29%;
+	left: 5%;
+}
+
+#costs{
+	position: absolute;
+	top: 53%;
+	left: 25.7%;
+}
+
+.main{
+	height: auto;
+	width: 800px;
+	position: absolute;
+	right: 3%;
+	top: 24%;
+}
+
+.info{
+	background-color: #333;
+	width: 200px;
+	height: 100px;
+	border-radius: 10px;
+	position: absolute;
+	left: 20%;
+	top: 30%;
+	padding: 20px;
+	color: #f0f0f0;
+	margin-top: 30px;
+	text-align: center;
+
+}
+
+.level{
+	color: #f0f0f0;
+}
+
+
+.miles{
+	top: 40%;
+	text-align: center;
+}
+
+.icon-exit{
+	margin-top: 50px;
+}
+
+.wheel{
+	position: absolute;
+	top: 67%;
+	left: 6%;
+	width: 100px;
+	height: auto;
+	z-index: 223;
+}
+
+#model{
+	position: absolute;
+	left: 8%;
+	top: 35%;
+	text-align: center;
+
+}
+
+#km{
+	position: absolute;
+	left: 25.7%;
+	top: 35%;
+	text-align: center;
+}
+
+#maintain{
+	position: absolute;
+	left: 8%;
+	top: 53%;
+	text-align: center;
+	color: #f0f0f0;
+
+}
+
+h4{
+	color: rgb(255, 255, 255);
+	font-size: 24px;
+	margin-top: 20px;
+}
+
+.white_btn1 {
+	border: none;
+	outline: none;
+	padding: 12px;
+	padding-top: 12px;
+	background-color: rgb(0, 0, 0);
+	border-radius: 20px;
+	width: 120px;
+	font-weight: bold;
+	font-size: 16px;
+	cursor: pointer;
+	margin-right: 20px;
+	position: absolute;
+	right: 3%;
+	top: 5%;
+	color: white;
+}
+
+.loader_container {
+  
+    height: 100vh; /* Full viewport height */
+    background-color: #f0f0f0; /* Optional: Add a background color */
+}
+
+.loader {
+    font-size: 1.5rem;
+    color: #333; /* Customize this */
+    /* Add your custom loader styles here */
+}
+
+.main_container{
+	height: auto;
+}
+
+.kmm{
+	color: white;
+}
+
+.miles{
+	color: white;
+}
+
+.carinfo{
+	color: white;
+}
+
+.price{
+	color: white;
+}
+
+.white_btn2{
+
+	position: absolute;
+	background-color: black;
+	color: white;
+	position: absolute;
+	top: 14.7%;
+	right: 74.3%;
+	border-radius: 20px;
+	z-index: 283948;
+	font-size: 1.438rem;
+	font-weight: 710;
+
+
+}
+
+.white_btn3{
+
+	position: absolute;
+	background-color: black;
+	color: white;
+	position: absolute;
+	top: 14.7%;
+	right: 47.6%;
+	border-radius: 20px;
+	z-index: 283948;
+	font-size: 1.438rem;
+	font-weight: 710;
+
+
+}
+
+.white_btn4{
+
+	position: absolute;
+	background-color: black;
+	color: white;
+	position: absolute;
+	top: 14.7%;
+	right: 21.2%;
+	border-radius: 20px;
+	z-index: 283948;
+	font-size: 1.438rem;
+	font-weight: 710;
+
+
+}
+.pricing_button{
+	position: absolute;
+	background-color: black;
+	color: white;
+	position: absolute;
+	top: 14.4%;
+	left: 31%;
+	z-index: 4890580944556686986896896965;
+	font-size: 26px;
+	font-weight: 610;
+
+}

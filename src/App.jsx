@@ -12,7 +12,6 @@ import Footer1 from "./components/Footer copy/footer1"
 import axios from "axios";
 import Header1 from "./components/Header copy/header";
 import ProfilePage from "./components/ProfilePage/ProfilePage";
-import BookingForm from "./components/BookingForm/BookingForm";
 
 
 function App() {

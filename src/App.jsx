@@ -98,7 +98,7 @@ function App() {
         {/* Main route for authenticated users */}
         <Route
           path="/"
-          element={isAuthenticated && !isLoading ? <> <Header1/> <Main /> <BookingForm></BookingForm>  </> : <Navigate to="/" />}
+          element={isAuthenticated && !isLoading ? <> <Header1/> <Main /> </> : <Navigate to="/" />}
         />
         {/* Login and SignUp Routes */}
         <Route
